@@ -11,3 +11,13 @@ for(int i = 0; i<N; i++)
        count ++; 
     }  
 }
+
+void PrintArray(string[] arrayForPrint)
+        {
+            for (int i = 0; i < arrayForPrint.Length; i++)
+            {
+                System.Console.Write(arrayForPrint[i] + "  ");
+            }
+        }
+
+PrintArray(NewArray);
